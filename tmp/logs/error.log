@@ -1,0 +1,349 @@
+2014-07-07 16:11:26 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /events
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-07 16:20:06 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /events
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-07 16:23:24 Error: [MissingControllerException] Controller class CalulatorController could not be found.
+Exception Attributes: array (
+  'class' => 'CalulatorController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-07 16:24:42 Error: [MissingControllerException] Controller class CalulatorController could not be found.
+Exception Attributes: array (
+  'class' => 'CalulatorController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-07 16:25:25 Error: [MissingActionException] Action CalulatorController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CalulatorController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#2 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-07 16:26:06 Error: [MissingViewException] View file "/var/www/clients/client0/web15/web/app/View/Calulator/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/clients/client0/web15/web/app/View/Calulator/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#4 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-07 16:28:43 Error: Fatal Error (4): syntax error, unexpected '$useTable' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/clients/client0/web15/web/app/Model/AppModel.php, line 33]
+2014-07-07 16:28:43 Error: [FatalErrorException] syntax error, unexpected '$useTable' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:14:38 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [/var/www/clients/client0/web15/web/app/Model/Calulator.php, line 20]
+2014-07-07 17:14:38 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 20, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 20, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:14:57 Error: Fatal Error (1): Call to undefined function internal_process() in [/var/www/clients/client0/web15/web/app/Model/Calulator.php, line 5]
+2014-07-07 17:14:57 Error: [FatalErrorException] Call to undefined function internal_process()
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/client...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/client...', 5, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/client...', 5, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:15:31 Error: [MissingDatasourceException] Datasource class  could not be found. 
+Exception Attributes: array (
+  'class' => '',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource('default')
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Model->__call('internal_proces...', Array)
+#4 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Calulator->internal_process('356', 200)
+#5 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(8): Calulator->process('356')
+#6 [internal function]: CalulatorController->index()
+#7 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#10 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-07 17:16:35 Error: [MissingDatasourceException] Datasource class  could not be found. 
+Exception Attributes: array (
+  'class' => '',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource('default')
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Model/Calulator.php(7): Model->__call('internal_proces...', Array)
+#4 /var/www/clients/client0/web15/web/app/Model/Calulator.php(7): Calulator->internal_process('356', 200)
+#5 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(8): Calulator->process('356')
+#6 [internal function]: CalulatorController->index()
+#7 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#10 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-07 17:20:16 Error: [MissingDatasourceException] Datasource class  could not be found. 
+Exception Attributes: array (
+  'class' => '',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource('default')
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Model/Calulator.php(7): Model->__call('internal_proces...', Array)
+#4 /var/www/clients/client0/web15/web/app/Model/Calulator.php(7): Calulator->internal_process('356', 200)
+#5 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(8): Calulator->process('356')
+#6 [internal function]: CalulatorController->index()
+#7 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#10 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-07 17:22:47 Error: Fatal Error (4): syntax error, unexpected '$usDbConfig' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/clients/client0/web15/web/app/Model/AppModel.php, line 33]
+2014-07-07 17:22:47 Error: [FatalErrorException] syntax error, unexpected '$usDbConfig' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:22:56 Error: Fatal Error (4): syntax error, unexpected '$useDbConfig' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/clients/client0/web15/web/app/Model/AppModel.php, line 33]
+2014-07-07 17:22:56 Error: [FatalErrorException] syntax error, unexpected '$useDbConfig' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:23:07 Error: Fatal Error (4): syntax error, unexpected '$useDbConfig' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/clients/client0/web15/web/app/Model/AppModel.php, line 33]
+2014-07-07 17:23:07 Error: [FatalErrorException] syntax error, unexpected '$useDbConfig' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 33, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 17:23:21 Error: [MissingDatasourceConfigException] The datasource configuration "" was not found in database.php
+Exception Attributes: array (
+  'config' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject(false)
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource(false)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Model->__call('internal_proces...', Array)
+#4 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Calulator->internal_process('356', 200)
+#5 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(8): Calulator->process('356')
+#6 [internal function]: CalulatorController->index()
+#7 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#10 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-07 17:23:57 Error: [MissingDatasourceConfigException] The datasource configuration "" was not found in database.php
+Exception Attributes: array (
+  'config' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject(false)
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource(false)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Model->__call('internal_proces...', Array)
+#4 /var/www/clients/client0/web15/web/app/Model/Calulator.php(5): Calulator->internal_process('356', 200)
+#5 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(8): Calulator->process('356')
+#6 [internal function]: CalulatorController->index()
+#7 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#10 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-07 17:28:55 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/clients/client0/web15/web/app/Model/Calulator.php, line 23]
+2014-07-07 17:28:55 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 23, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 23, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:49:54 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:49:54 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:50:11 Error: [MissingDatasourceConfigException] The datasource configuration "" was not found in database.php
+Exception Attributes: array (
+  'config' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject(false)
+#1 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(3512): ConnectionManager::getDataSource(false)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Model/Model.php(800): Model->getDataSource()
+#3 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(6): Model->__call('Validate', Array)
+#4 /var/www/clients/client0/web15/web/app/Controller/CalulatorController.php(6): Calulator->Validate()
+#5 [internal function]: CalulatorController->index()
+#6 /var/www/clients/client0/web15/web/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CalulatorController), Array)
+#7 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/clients/client0/web15/web/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CalulatorController), Object(CakeRequest))
+#9 /var/www/clients/client0/web15/web/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-07 18:50:34 Error: Fatal Error (1): Call to a member function Validate() on a non-object in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:50:34 Error: [FatalErrorException] Call to a member function Validate() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:50:46 Error: Fatal Error (1): Call to a member function Validates() on a non-object in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:50:46 Error: [FatalErrorException] Call to a member function Validates() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:50:53 Error: Fatal Error (1): Call to a member function validate() on a non-object in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:50:53 Error: [FatalErrorException] Call to a member function validate() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:50:59 Error: Fatal Error (1): Call to a member function validates() on a non-object in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:50:59 Error: [FatalErrorException] Call to a member function validates() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 18:52:52 Error: Fatal Error (1): Call to a member function validates() on a non-object in [/var/www/clients/client0/web15/web/app/Controller/CalulatorController.php, line 6]
+2014-07-07 18:52:52 Error: [FatalErrorException] Call to a member function validates() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/client...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/client...', 6, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 21:12:58 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/clients/client0/web15/web/app/Model/Calculator.php, line 12]
+2014-07-07 21:12:58 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 21:14:23 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/clients/client0/web15/web/app/Model/Calculator.php, line 12]
+2014-07-07 21:14:23 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 21:14:28 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/clients/client0/web15/web/app/Model/Calculator.php, line 12]
+2014-07-07 21:14:28 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 12, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 21:51:33 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/clients/client0/web15/web/app/Model/Calculator.php, line 14]
+2014-07-07 21:51:33 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 14, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 14, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-07 22:42:22 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/var/www/clients/client0/web15/web/app/View/Calculator/index.ctp, line 3]
+2014-07-07 22:42:22 Error: [InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /var/www/clients/client0/web15/web/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/client...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/client...', 3, Array)
+#2 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/client...', 3, Array)
+#3 /var/www/clients/client0/web15/web/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
